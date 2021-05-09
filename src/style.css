@@ -4,10 +4,15 @@ body {
 button {
   cursor: pointer;
 }
-#me {
-  color: rgb(248, 216, 36);
-}
 
+#face {
+  box-sizing: content-box;
+  width: 300px;
+  height: 150px;
+  border: solid #3a8bf5 2px;
+  padding: 5px;
+  margin: auto;
+}
 .dropbtn {
   background-color: #4caf50;
   color: white;
