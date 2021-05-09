@@ -4,7 +4,13 @@ body {
 button {
   cursor: pointer;
 }
+#weed {
+  background-color: rgb(75, 240, 34);
+}
 
+#shatter {
+  background-color: #fdb824;
+}
 #face {
   box-sizing: content-box;
   width: 300px;
@@ -12,6 +18,9 @@ button {
   border: solid #3a8bf5 2px;
   padding: 5px;
   margin: auto;
+}
+#search {
+  background-color: #3a8bf5;
 }
 .dropbtn {
   background-color: #4caf50;
