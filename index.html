@@ -10,7 +10,9 @@
   <body>
     <br />
     <div id="face">
-      <h4 id="header1"></h4>
+      <pp id="header1"></pp>
+      <br />
+      <br />
       <p1 id="p1"></p1>
       <br />
       <p2 id="p2"></p2>
@@ -18,28 +20,31 @@
       <p3 id="p3"></p3>
       <br />
       <p4 id="p4"></p4>
+      <br />
+      <p5 id="p5"></p5>
     </div>
     <br /><br />
-
-    <label for="weight">Weight:</label>
-    <br />
-    <input type="text" id="weight" />
-    <div class="dropdown">
-      <button class="dropbtn">Units</button>
-      <div class="dropdown-content">
-        <a href="#">Gram</a>
-        <a href="#">Eighth(w)/3G(s)</a>
-        <a href="#">Quarter</a>
-        <a href="#">Ounce</a>
-        <a href="#">Pound</a>
+    <form>
+      <label for="weight">Weight:</label>
+      <br />
+      <input type="text" id="weight" />
+      <div class="dropdown">
+        <button class="dropbtn">Units</button>
+        <div class="dropdown-content">
+          <a href="#">Gram</a>
+          <a href="#">Eighth(w)/3G(s)</a>
+          <a href="#">Quarter</a>
+          <a href="#">Ounce</a>
+          <a href="#">Pound</a>
+        </div>
       </div>
-    </div>
-    <br />
-    <label for="cost">Cost $:</label>
-    <br />
-    <input type="text" id="cost" />
+      <br />
+      <label for="cost">Cost $:</label>
+      <br />
+      <input type="text" id="cost" />
+    </form>
     <br /><br />
-    <button id="weed">Weed</button>
+    <button onclick="weedd()" id="weed">Weed</button>
     <button onclick="shatterr()" id="shatter">Shatter</button>
 
     <h6 id="me">
