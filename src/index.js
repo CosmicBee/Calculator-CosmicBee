@@ -1,10 +1,10 @@
+let a=document.querySelector("#shatter");
 
 
-let weightT=7 ;
-let amountM=9 ;
-let smath= weightT*amountM;
+a.addEventListener("click", e => {
+  console.log(e.target) 
+});
 
 function shatterr(){
-
-  document.getElementById("face").innerHTML = ` ${smath}`;
-}
+  document.getElementById("face").innerHTML = "Shatter Amounts: "
+};
