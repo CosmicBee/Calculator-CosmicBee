@@ -1,6 +1,8 @@
 let a=document.querySelector("#shatter");
-let b= document.getElementById("input");
 
+let first = 10;
+let second=4;
+let b= first*second;
 
 
 a.addEventListener("click", e => {
