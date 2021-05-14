@@ -1,8 +1,4 @@
 
-
-
-
-
 a.addEventListener("click", e => {
   console.log(e.target) 
 });
@@ -22,7 +18,6 @@ function shatterr(){
 
 
 
-
 let w=document.querySelector("#weed");
 
 w.addEventListener("click", e => {
@@ -31,7 +26,6 @@ w.addEventListener("click", e => {
 
 function weedd(){
   let weedElement =document.querySelector("#header1");
-
   let weedCostH = document.querySelector("#cost").value;
   weedElement.innerHTML = weedCostH;
 
@@ -42,3 +36,8 @@ function weedd(){
    document.getElementById("p4").innerHTML = "14g-Half: $ "
    document.getElementById("p5").innerHTML = "28g-Ounce: $ "
 };
+
+
+
+
+
