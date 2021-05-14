@@ -43,7 +43,7 @@ function weedd(){
 
 
 
-let g=document.querySelector("#gdrdown");
+let g=document.querySelector("#gramm");
 
 g.addEventListener("click", e => {
   console.log(e.target) 
@@ -65,3 +65,58 @@ function threeD(){
   
 }
 
+
+let eeighth=document.querySelector("#eighthh");
+
+eeighth.addEventListener("click", e => {
+  console.log(e.target) 
+});
+
+function eighthD(){
+  
+}
+
+
+
+let q=document.querySelector("#quarterr");
+
+q.addEventListener("click", e => {
+  console.log(e.target) 
+});
+
+function quarterD(){
+  
+}
+
+
+let h=document.querySelector("#halff");
+
+h.addEventListener("click", e => {
+  console.log(e.target) 
+});
+
+function halfD(){
+  
+}
+
+
+let o=document.querySelector("#ouncee");
+
+o.addEventListener("click", e => {
+  console.log(e.target) 
+});
+
+function ounceD(){
+  
+}
+
+
+let p=document.querySelector("#poundd");
+
+p.addEventListener("click", e => {
+  console.log(e.target) 
+});
+
+function poundD(){
+  
+}
