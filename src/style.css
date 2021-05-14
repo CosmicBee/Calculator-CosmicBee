@@ -9,6 +9,10 @@ body {
 button {
   cursor: pointer;
 }
+button:hover {
+  color: #fafafa;
+  transition: background-color 5s ease-out 100ms;
+}
 #weed {
   background-color: rgb(75, 240, 34);
 }
@@ -28,7 +32,7 @@ button {
   background-color: #3a8bf5;
 }
 .dropbtn {
-  background-color: #4caf50;
+  background-color: #ff0202;
   color: white;
   padding: 16px;
   font-size: 8px;
@@ -58,7 +62,7 @@ button {
 }
 
 .dropdown-content a:hover {
-  background-color: #58fc89;
+  background-color: #e9fc41;
 }
 
 .dropdown:hover .dropdown-content {
@@ -66,5 +70,5 @@ button {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #f14b6f;
 }
