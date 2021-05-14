@@ -53,3 +53,15 @@ function gramD(){
   
 }
 
+
+
+let threeg=document.querySelector("#threegs");
+
+threeg.addEventListener("click", e => {
+  console.log(e.target) 
+});
+
+function threeD(){
+  
+}
+
