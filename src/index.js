@@ -6,11 +6,12 @@ a.addEventListener("click", e => {
 function shatterr(){
   let shatterElement=document.querySelector("#header1");
   let shatterCost=document.querySelector("#cost").value;
-  let weedWeight=document.querySelector("#weight").value;
+  let wWeight=document.querySelector("#weight").value;
   shatterElement.innerHTML = shatterCost;
+let stimes= shatterCost*wWeight
 
   document.getElementById("header1").innerHTML = "Shatter "
-  document.getElementById("p1").innerHTML = `1 Gram: $${shatterCost/weedWeight}` 
+  document.getElementById("p1").innerHTML = `1 Gram: $${stimes}` 
   document.getElementById("p2").innerHTML = "3G: $ "
    document.getElementById("p3").innerHTML = "7g-Quarter: $ "
    document.getElementById("p4").innerHTML = "14g-Half: $ "
@@ -31,10 +32,10 @@ function weedd(){
   let weedCostH = document.querySelector("#cost").value;
   let weedWeight=document.querySelector("#weight").value;
   weedElement.innerHTML = weedCostH;
-  
+  let gtimes= weedWeight*weedCostH
 
   document.getElementById("header1").innerHTML = "Weed"
-  document.getElementById("p1").innerHTML = `1 Gram: $ ${weedCostH * weedWeight}` 
+  document.getElementById("p1").innerHTML = `1 Gram: $ ${gtimes}` 
   document.getElementById("p2").innerHTML = "Eighth: $  "
    document.getElementById("p3").innerHTML = "7g-Quarter: $ "
    document.getElementById("p4").innerHTML = "14g-Half: $ "
@@ -50,7 +51,7 @@ g.addEventListener("click", e => {
 });
 
 function gramD(){
-  
+
 }
 
 
