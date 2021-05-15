@@ -36,7 +36,7 @@ function weedd(){
 
   document.getElementById("header1").innerHTML = "Weed"
   document.getElementById("p1").innerHTML = `1 Gram: $ ${gtimes}` 
-  document.getElementById("p2").innerHTML = "Eighth: $  "
+  document.getElementById("p2").innerHTML = "3.5G Eighth: $  "
    document.getElementById("p3").innerHTML = "7g-Quarter: $ "
    document.getElementById("p4").innerHTML = "14g-Half: $ "
    document.getElementById("p5").innerHTML = "28g-Ounce: $ "
